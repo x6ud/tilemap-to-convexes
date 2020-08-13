@@ -1,0 +1,19 @@
+{
+  "name": "tilemap-to-convexes",
+  "version": "1.0.0",
+  "description": "Merge solid polygons and decompose into convexes.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest --config jestconfig.json"
+  },
+  "keywords": [],
+  "author": "x6ud",
+  "license": "",
+  "devDependencies": {
+    "@types/jest": "^26.0.9",
+    "jest": "^26.2.2",
+    "ts-jest": "^26.1.4",
+    "typescript": "^3.9.7"
+  }
+}
