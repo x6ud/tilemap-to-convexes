@@ -2,18 +2,31 @@
   "name": "tilemap-to-convexes",
   "version": "1.0.0",
   "description": "Merge solid polygons and decompose into convexes.",
-  "main": "index.js",
+  "main": "./lib/index.js",
+  "typings": "./lib/index.d.ts",
   "scripts": {
     "build": "tsc",
     "test": "jest --config jestconfig.json"
   },
-  "keywords": [],
+  "keywords": [
+    "tilemap",
+    "polygon",
+    "convex"
+  ],
   "author": "x6ud",
-  "license": "",
+  "homepage": "https://github.com/x6ud/tilemap-to-convexes",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/x6ud/tilemap-to-convexes.git"
+  },
+  "license": "MIT",
   "devDependencies": {
     "@types/jest": "^26.0.9",
     "jest": "^26.2.2",
     "ts-jest": "^26.1.4",
     "typescript": "^3.9.7"
+  },
+  "dependencies": {
+    "poly-partition": "^1.0.1"
   }
 }

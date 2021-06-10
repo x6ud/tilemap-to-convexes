@@ -1,4 +1,4 @@
-import {removeHoles, convexPartition} from './poly-partition'
+import {removeHoles, convexPartition} from 'poly-partition';
 
 type Point = { x: number, y: number };
 type Edge = [Point, Point];
